@@ -1,0 +1,25 @@
+# Methods in Ecology and Evolution, 9(3), 793–797. doi:10.1111/2041-210X.12911
+# Murphy CJ, Mutti DO, Zadnik K, Hoeve J Ver (1997) Effect of optical defocus on visual acuity in dogs. Am. J. Vet. Res. 58:414-418.
+# Odom JV, Bromberg NM, Dawson WW (1983) Canine visual acuity: retinal and cortical field potentials evoked by pattern stimulation. Am. J. Physiol. 245:R637-41.
+
+Common Name, Species Name, Acuity (cyc/deg), Citation
+Eagle,Aquilaaudax,140,(Reymond 1985)
+Human,Homo sapiens,73,(Land 1981)
+Human,Homo sapiens,72,(Land and Nilsson 2012)
+Octopus,Octopus vulgaris,46,(Young 1962; Land 1981)
+Jumping Spider,Portia fimbriata,12,(Williams & McIntyre 1980)
+Cat,Felis catus,10,(Wässle 1971)
+Goldfish,Carassius auratus,7,(Penzlin & Stubbe 1977)
+Triggerfish,Rhinecanthus aculeatus,2.75,(Champ et al. 2014)
+Dragonfly,Aeschna grandis,2,(Mazokhin-Porshnyakov 1969; Land 1997)
+Hooded Rat,Rattus norvegicus,1,(Wiesenfeld & Branchek 1975)
+Worker Bee,Apis mellifera,0.5,(Wehner 1981; Land 1997)
+Crab,Leptograspus variegatus,0.3,(Stowe 1980)
+Scallop,Pecten maximus,0.3,(Land 1981)
+Wolf Spider,Lycosa spp.,0.2,(Widmann 1908; Homann 1931)
+Fly,Drosophila melanogaster,0.09,(Wehner 1981; Land 1997)
+Horseshoe Crab,Limulus polyphemus,0.08,(Barlow Chamberlain & Levinson 1980)
+Nautilus,Nautilus spp.,0.06,(Land 1981)
+Flatworm,Euplanaria gonocephala,0.01,(Land 1981)
+Dog,unspecified,7.5,(Murphy CJ, 1997)
+Dog,unspecified,11.6,(Odom JV, 1983)
