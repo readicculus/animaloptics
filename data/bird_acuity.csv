@@ -1,0 +1,49 @@
+# Graham Martin’s “Sensory Ecology of Birds” (2017) Oxford University Press
+Order,Family,Species,Acuity (cyc/deg),Acuity (minutes of arc),Method,Sources
+Struthioniformes,Struthionidae (Ostriches),Common Ostrich Struthio camelus,19.8,1.5,ganglion,(Boire et al. 2001)
+Anseriformes,"Anatidae (Ducks, Geese and Swans)",Mallard Anas platyrhynchos,11.9,2.52,ganglion,(Lisney et al. 2013a)
+,,Canada Goose Branta canadensis,9.6,3.1,ganglion,(Fernandez-Juricic et al. 2011)
+Galliformes,Phasianidae (Pheasants and allies),Grey Partridge Perdix perdix,10.2,2.9,ganglion,(Lisney et al. 2012)
+,,Japanese Quail Coturnix coturnix,9.7,3.1,ganglion,“
+,,Red Jungle Fowl Gallus gallus,8.3,3.6,ganglion,(Ehrlich 1981)
+,,Common Pheasant Phasianus colchicus,12.9,2.3,ganglion,(Lisney et al. 2012)
+,,Indian Peafowl Pavo cristatus,20.6,1.5,ganglion,(Hart 2002)
+Procellariiformes,Hydrobatidae (Northern Storm Petrels),Leach’s  Storm Petrel Oceanodroma leucorhoa,7.1,4.2,ganglion,(Mitkus 2015)
+,"Procellariidae (Petrels, Shearwaters)",Northern Fulmar Fulmarus glacialis,44.7,0.7,ganglion,“
+Suliformes,"Phalacrocoracidae (Cormorants, Shags)",Great Cormorant Phalacrocorax carbo,3.3 (underwater),9.1,behaviour,(White et al. 2007)
+Accipitriformes,Cathartidae (New World Vultures),Turkey Vulture Cathartes atratus,15.4,1.9,ganglion,(Lisney et al. 2013b)
+,,Black Vulture Coragyps aura,15.8,1.9,ganglion,“
+,"Accipitridae (Kites, Hawks and Eagles)",Indian Vulture Gyps indicus,135,0.2,behaviour,(Fischer 1969)
+,,Griffon Vulture Gyps fulvus,104,0.3,behaviour,“
+,,Egyptian vulture Neophron percnopterus,135,0.2,behaviour,“
+,,Wedge-tailed Eagle Aquila audax,142,0.2,behaviour,(Reymond 1985)
+,,Black Kite Milvus migrans,37.3,0.8,behaviour,(Potier et al. 2016)
+,,Harris’s Hawk Parabuteo unicinctus,29.3,1.0,behaviour,“
+Columbiformes,"Columbidae (Pigeons, Doves)",American Mourning Dove Zenaida macroura,7.6,3.9,ganglion,(Dolan and Fernandez-Juricic 2010)
+,,Rock Dove Columba livia,18,1.7,behaviour,(Hodos et al. 1976)
+Strigiformes,Tytonidae (Barn Owls),Western Barn Owl Tyto alba,4.0,7.5,behaviour,(Harmening et al. 2009)
+,Strigidae (Owls),Great Horned Owl Bubo virginianus,7.5,4.0,behaviour,(Fite 1973)
+,,Tawny Owl Strix aluco,11.1,2.7,behaviour,(Martin and Gordon 1974)
+Coraciiformes,Alcedinidae (Kingfishers),Laughing Kookaburra Dacelo novaeguineae,41,0.7,ganglion,(Moroney and Pettigrew 1987)
+,,Sacred Kingfisher Todiramphus sanctus,26,1.2,ganglion,“
+Falconiformes,"Falconidae (Caracaras, Falcons)",American Kestrel Falco sparverius,40,0.75,behaviour,(Hirsch 1982)
+,,Brown Falcon Falco berigora,73,0.4,behaviour,(Reymond 1987)
+Psittaciformes,Psittaculidae (Old World Parrots),Bourke’s Parrot Neopsephotus bourkii,9.4,3.2,behaviour,(Lind et al. 2012)
+,,Budgerigar Melopsittacus undulatus,11.7,2.6,behaviour,“
+Passeriformes,Meliphagidae (Honeyeaters),Brown Honeyeater Lichmera  indistincta,20.2,1.5,photoreceptor spacing,(Coimbra et al. 2015)
+,,Red Wattlebird Anthochaera carunculata,40.8,0.7,photoreceptor spacing,“
+,Acanthizidae (Australasian Warblers),Yellow-rumped Thornbill Acanthiza chrysorrhoa,25.6,1.2,photoreceptor spacing,“
+,"Corvidae (Crows, Jays)",Blue Jay Cyanocitta cristata,19,1.6,ganglion,(Fite and Rosenfield-Wessels 1975)
+,,Eurasian Magpie Pica pica,33.3,0.9,behaviour,(Dabrowska 1975)
+,,Rook Corvus frugilegus,29.5,1.0,behaviour,“
+,"Paridae (Tits, Chickadees)",Tufted Titmouse Baeolophus bicolor,6.6,4.5,ganglion,(Moore et al. 2013)
+,,Carolina Chickadee Poecile carolinensis,5,0.6,ganglion,“
+,Zosteropidae (White-eyes),Silvereye Zosterops lateralis,18.5,1.6,photoreceptor spacing,(Coimbra et al. 2015)
+,Turdidae (Thrushes),Common Blackbird Turdus merula,22.5,1.3,behaviour,(Donner 1951)
+,,European Robin Erithacus rubecula,6,5.0,behaviour,“
+,Passeridae (Old World Sparrows),House Sparrow Passer domesticus,4.8,6.3,ganglion,(Dolan and Fernandez-Juricic 2010)
+,Fringillidae (Finches),Common Chaffinch Fringilla coelebs,22.5,1.3,behaviour,(Donner 1951)
+,,House  Finch Haemorhus mexicanus,4.7,6.4,ganglion,(Dolan and Fernandez-Juricic 2010)
+,"Emberizidae (Buntings, New World Sparrows)",Yellowhammer Emberiza citrinella,9.7,3.1,behaviour,(Donner 1951)
+,,Common Reed Bunting Emberiza schoeniclus,7.8,3.8,behaviour,“
+Human,,,72,0.4,behaviour,(Land and Nilsson 2012)
