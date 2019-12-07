@@ -5,7 +5,7 @@ from scipy.ndimage.filters import gaussian_filter
 
 import simulator
 from simulator.Simulator import Simulator
-from simulator.translations import acuity_transform, acuity_transform2d, acuity_transform2d_bad
+from simulator.translations import acuity_transform, acuity_transform2d
 
 
 def showgray(im):
@@ -14,6 +14,39 @@ def showgray(im):
 def showrgb(im):
     plt.imshow(im, vmin=0, vmax=1)
     plt.show()
+
+def window_1d_bad(im, n):
+    h,w = im.shape
+    imout = np.copy(im)
+    for i in range(n,w-n):
+        for j in range(h):
+            px = np.mean(im[j,i-n:i+n])
+            imout[j,i] = px
+    return imout
+
+def acuity_transform2d_bad(img, acuity_src, acuity_dst):
+    c = float(acuity_src)/float(acuity_dst)
+    if c < 0.0:
+        # acuity is actually higher for dst and we can't increase "resolution"
+        return img
+    factor = int(c/2)
+    factor = min(factor, 20)
+
+
+    # r, g, b = cv2.split(img)
+
+    chans =  cv2.split(img)
+    cl = len(chans)
+    for c in range(cl):
+        i = factor
+        chans[c] = window_1d_bad(chans[c], factor)
+        chans[c] = window_1d_bad(chans[c].T, i).T
+
+
+    out = cv2.merge(chans)
+
+    return out
+
 im = cv2.imread('samples/flower.jpg')
 o = acuity_transform2d_bad(im, 20, 1)
 cv2.imwrite("figs/flower_blur20x.jpg", o)
