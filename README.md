@@ -1,13 +1,16 @@
 # animaloptics
 
+### Steps
+1. Cone catch modeling
+2. Acuity control
 
-## Dogs
-* Dog Blue Value = Human Blue Value
-* Dog Red Value = (Human Green Value + Human Red Value) / 2
-* Dog Green Value = Dog Red Value
+# Things that would improve this
+* Cameras arent consistent and since raw images are the ideal data to be working with we could create a linearization model by first taking an image of a known color pallete.[2]
 
-## Brids
-https://19mvmv3yn2qc2bdb912o1t2n-wpengine.netdna-ssl.com/science/files/2015/07/color-range.jpg
-https://ars.els-cdn.com/content/image/1-s2.0-S0005272813001461-gr4.jpg
+## Sources
+* [1] https://dog-vision.andraspeter.com/
+* [2] http://www.empiricalimaging.com/  (data/code - https://github.com/troscianko/micaToolbox)
+## Data
 
-https://www.pnas.org/content/113/29/8206
+### List of common animal spatial acuities
+http://www.empiricalimaging.com/knowledge-base/list-of-animal-spatial-acuities/
