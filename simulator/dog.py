@@ -38,7 +38,7 @@ def dog(bgr):
     # The maximum visual acuity of the human eye is around 50 CPD[7] and 60 CPD[8].
     # The measurements of dogs' visual acuity vary around 7.5-9 CPD[9] and 11.6 CPD[10].
     #humans 20/20 dogs 20/75
-    im = trans.acuity_transform(im, 60, 10)
+    im = trans.acuity_transform2d(im, 60, 10)
     im = im**gamma_compressed
 
 
