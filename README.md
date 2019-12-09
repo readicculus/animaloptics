@@ -16,4 +16,4 @@
 http://www.empiricalimaging.com/knowledge-base/list-of-animal-spatial-acuities/
 
 
-<img src="figs/455 final poster.svg">
+<img src="figs/455 final poster.pdf">
