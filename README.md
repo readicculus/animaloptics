@@ -15,5 +15,4 @@
 ### List of common animal spatial acuities
 http://www.empiricalimaging.com/knowledge-base/list-of-animal-spatial-acuities/
 
-
-<img src="figs/455 final poster.pdf">
+A poster we made overviewing the project can be found <a href="figs/455 final poster.pdf">here.</a>
