@@ -91,7 +91,7 @@ class TweetListener(StreamListener):
         im_sim.save(fn_local)
         print(data)
 
-        status="@%s here is a simulation of how a %s would see this"%(username,animal_name`)
+        status="@%s here is a simulation of how a %s would see this"%(username,animal_name)
         self.api.update_with_media(filename=fn_local,
                                    status=status,
                                    in_reply_to_status_id=tweetid)
