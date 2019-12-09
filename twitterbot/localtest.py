@@ -12,7 +12,7 @@ def showrgb(im):
     plt.imshow(im, vmin=0, vmax=1)
     plt.show()
 im = cv2.imread('samples/image1.jpg')
-im = cv2.imread('samples/bars.png')
+im = cv2.imread('samples/flower.jpg')
 sim = Simulator(simulator.dog, im)
 sim2 = Simulator(simulator.bee, im)
 sim3 = Simulator(simulator.cat, im)
