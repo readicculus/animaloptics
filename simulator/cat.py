@@ -1,7 +1,5 @@
 import cv2
 import numpy as np
-from matplotlib import pyplot as plt
-from scipy.ndimage.filters import gaussian_filter
 import simulator.translations as trans
 
 def cat(bgr):
